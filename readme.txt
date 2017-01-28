@@ -29,3 +29,4 @@
 	g++ -Wall -fPIC -O2 -c HeliosDacAPI.cpp
 	g++ -shared -o libHeliosDacAPI.so HeliosDacAPI.o HeliosDac.o HeliosDacClass.o -L/usr/lib/arm-linux-gnueabihf/ -lusb-1.0
 
+	Helios header files have been modified to fix build issue under Raspberry Pi.  They retain the original license.
